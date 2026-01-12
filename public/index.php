@@ -6,5 +6,5 @@ $screen = $grouped[array_rand($grouped)];
 header("Content-Type: application/json");
 
 echo json_encode([
-    'screen' => 'https://raw.githubusercontent.com/rknightuk/trmnl-ps2-title-screens/main/' . $screen,
+    'screen' => 'https://raw.githubusercontent.com/rknightuk/trmnl-dreamcast-title-screens/main/' . $screen,
 ]);

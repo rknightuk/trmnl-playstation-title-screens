@@ -2,13 +2,7 @@ import fs from 'fs'
 import { DOMParser, parseHTML } from 'linkedom'
 
 const pages = [
-    'https://tcrf.net/Category:PlayStation_2_title_screens',
-    'https://tcrf.net/index.php?title=Category:PlayStation_2_title_screens&filefrom=Dark+Summit+-+Title.png#mw-category-media',
-    'https://tcrf.net/index.php?title=Category:PlayStation_2_title_screens&filefrom=Growlanser+IV+-+Title.png#mw-category-media',
-    'https://tcrf.net/index.php?title=Category:PlayStation_2_title_screens&filefrom=Lethal+Skies+II+-+Title.png#mw-category-media',
-    'https://tcrf.net/index.php?title=Category:PlayStation_2_title_screens&filefrom=Pachi-Slot+Gigazone+-+Title.png#mw-category-media',
-    'https://tcrf.net/index.php?title=Category:PlayStation_2_title_screens&filefrom=Shin+Seiki+GPX+Cyber+Formula+-+Title.png#mw-category-media',
-    'https://tcrf.net/index.php?title=Category:PlayStation_2_title_screens&filefrom=TheKingofRoute66PS2-title.png#mw-category-media',
+    'https://tcrf.net/Category:Dreamcast_title_screens',
 ]
 
 const fetchPageHtml = async (link) => {
